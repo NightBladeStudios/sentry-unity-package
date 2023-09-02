@@ -4452,6 +4452,20 @@
             </returns>
             <inheritdoc />
         </member>
+        <member name="T:Sentry.Internal.Http.SentrySuccessfulResponseBody">
+            <summary>
+            The payload of a response to a successful call to Sentry.
+            </summary>
+            <seealso href="https://develop.sentry.dev/sdk/overview/#reading-the-response"/>
+        </member>
+        <member name="P:Sentry.Internal.Http.SentrySuccessfulResponseBody.id">
+            <summary>
+            The id generated for the event or the one created by the SDK if any.
+            </summary>
+            <example>
+            fc6d8c0c43fc4630ad850ee518f1b9d0
+            </example>
+        </member>
         <member name="M:Sentry.Internal.IClientReportRecorder.RecordDiscardedEvent(Sentry.Internal.DiscardReason,Sentry.Internal.DataCategory)">
             <summary>
             Records one count of a discarded event, with the given <paramref name="reason"/> and <paramref name="category"/>.
