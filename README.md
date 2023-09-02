@@ -11,11 +11,11 @@
 Sentry SDK for Unity
 ===========
 
-This is the UPM package for the Sentry SDK for Unity.
+This is the UPM package for the Sentry SDK for Unity. - Updated by BaalEvan to Sentry 3.36 as 3.35 was deprecated and bugged
 
 Install it via `UPM`:
 ```
-https://github.com/getsentry/unity.git#1.5.1
+https://github.com/NightBladeStudios/sentry-unity-package.git#1.5.2
 ```
 
 ## Source code
